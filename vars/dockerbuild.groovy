@@ -1,6 +1,6 @@
-def build(build){
+def build(cmd){
   echo 'building the clone'
-  sh "${build}"
+  sh "${cmd}"
 }
 
 
