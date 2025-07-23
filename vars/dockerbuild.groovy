@@ -1,6 +1,4 @@
-def build(cmd){
-  echo 'building the clone'
+def call(String cmd) {
+  echo 'Building the clone'
   sh "${cmd}"
 }
-
-
